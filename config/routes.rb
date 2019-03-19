@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   get 'my_portfolio' => 'users#my_portfolio'
   
   get 'search_stocks' => 'stocks#search'
+  
+  resources :user_stocks, only: [:create, :destroy] # add stock to your list
 end
