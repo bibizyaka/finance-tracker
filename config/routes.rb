@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   get 'search_stocks' => 'stocks#search'
   
   resources :user_stocks, only: [:create, :destroy] # add stock to your list
+  
+  get 'my_friends' => 'users#my_friends'
 end

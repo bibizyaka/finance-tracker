@@ -10,6 +10,7 @@ gem 'devise', '~> 4.4'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'devise-bootstrap-views'
+gem "font-awesome-rails"
 gem 'stock_quote'
 
 gem 'pg'
